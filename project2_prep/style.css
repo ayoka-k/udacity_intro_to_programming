@@ -1,0 +1,52 @@
+/* This is a CSS comment.*/
+
+
+.description {
+  max-width: 580px;
+  color: #7C8B88;
+  padding: 0px 20px 0px 20px;
+  font-family: "Arial";
+  font-size: 25px;
+}
+
+.app {
+  display: -webkit-flex;
+  display: flex;
+  margin: 40px;
+}
+
+/* resize image */
+.image {
+  width: 450px;
+  height: auto;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%;
+}
+
+/* title */
+.title {
+  background-color: #33BEBE;
+  color: #F8F8FF;
+  font-size: 60px;
+  font-family: "Arial";
+  max-height: 300px;
+  max-width: 1000px;
+  padding: 30px 20px 0px 20px;
+  margin: 40px;
+  
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/*
+Comments are only to help PEOPLE read a code file. The
+computer ignores them.
+*/
