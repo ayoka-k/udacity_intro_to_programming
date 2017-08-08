@@ -1,0 +1,138 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif; 
+}
+
+.container {
+  width: 750px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: auto;
+}
+
+.header {
+  background: #FFFFFF url("images/photo.jpg") no-repeat center;
+  background-size: cover;
+  width: 750px;
+  height: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: auto;
+}
+
+.greeting_text {
+  text-align: center;
+  font-weight: bold;
+}
+
+.greeting_text h4 {
+  font-size: 25px;
+}
+
+.greeting_text h1 {
+  font-size: 50px;
+}
+
+.social-link {
+  text-align: center;
+  margin: 10px;
+}
+
+/* Style social icons */
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: #F8F8FF;
+  margin: 0 5px;
+}
+
+.fa-linkedin {
+  background: #3395c4;
+}
+
+.fa-instagram {
+  background: #4178A0;
+}
+
+.fa-github {
+  background: #000000;
+}
+
+.introduce {
+  line-height: 30px;
+  text-align: center;
+}
+
+.introduce h5 {
+ height: 25px;
+ font-size: 15px;
+ font-weight: lighter;
+ margin: 10px 0;
+}
+
+.introduce h4 {
+  height: 30px;
+  font-size: 25px;
+  font-weight: normal;
+  margin: 10px 0;
+}
+
+.container-vertically-aligned {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile_photo {
+  min-width: 180px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 180px;
+  width: 180px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.bio_text {
+  height: 200px;
+  line-height: 30px;
+  text-align: justify;
+  font-size: 15px;
+  font-weight: lighter;
+  margin: 10px;
+}
+
+.hobbies {
+  width: 750px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.hobbies h4 {
+ font-size: 25px;
+ font-weight: normal;
+}
+
+.list ul {
+  list-style-type: none;
+  font-weight: 600;
+}
+
+.list li {
+  display: inline-block;
+  position: relative;
+  background: #708090;
+  color: #F8F8FF;
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  margin: 0 30px;
+}
