@@ -14,7 +14,7 @@
 }
 
 .header {
-  background: #FFFFFF url("images/photo.jpg") no-repeat center;
+  background: #FFF url("images/photo.jpg") no-repeat center;
   background-size: cover;
   width: 750px;
   height: 500px;
@@ -26,13 +26,10 @@
 .greeting_text {
   text-align: center;
   font-weight: bold;
+  margin: 30px 0;
 }
 
-.greeting_text h4 {
-  font-size: 25px;
-}
-
-.greeting_text h1 {
+.greeting_text p {
   font-size: 50px;
 }
 
@@ -77,7 +74,7 @@
  margin: 10px 0;
 }
 
-.introduce h4 {
+.introduce p {
   height: 30px;
   font-size: 25px;
   font-weight: normal;
@@ -100,7 +97,7 @@
   border-radius: 50%;
 }
 
-.bio_text {
+.bio_text p {
   height: 200px;
   line-height: 30px;
   text-align: justify;
@@ -134,5 +131,6 @@
   border-radius: 50%;
   width: 110px;
   height: 110px;
-  margin: 0 30px;
+  padding: 5px 10px;
+  margin: 0px 30px;
 }
