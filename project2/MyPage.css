@@ -30,6 +30,10 @@
 }
 
 .greeting_text p {
+  font-size: 25px;
+}
+
+.greeting_text h1 {
   font-size: 50px;
 }
 
@@ -67,14 +71,14 @@
   text-align: center;
 }
 
-.introduce h5 {
+.introduce h2 {
  height: 25px;
  font-size: 15px;
  font-weight: lighter;
  margin: 10px 0;
 }
 
-.introduce p {
+h3 {
   height: 30px;
   font-size: 25px;
   font-weight: normal;
@@ -113,14 +117,10 @@
   text-align: center;
 }
 
-.hobbies h4 {
- font-size: 25px;
- font-weight: normal;
-}
-
 .list ul {
   list-style-type: none;
   font-weight: 600;
+  padding: 0;
 }
 
 .list li {
