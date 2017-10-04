@@ -25,6 +25,8 @@ grammar_quiz = {
 }
 
 def run_test(level):
+  """Takes user's english level as input and runs the quiz
+  """
   questions = grammar_quiz[level]
   for index_q in range(0, len(questions)):
     while True:
@@ -34,6 +36,7 @@ def run_test(level):
 
 def ask_question(level, index_q):
   """Shows questions to the user one by one and asks the user to type in an answer
+  Takes user's english level and index of the question as inputs
 
   If user answers a question correctly it shows the next question
   If user gives a wrong answer it retries 
